@@ -16,8 +16,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ]]
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 cmake_policy(SET CMP0074 NEW) # Use package_ROOT env var to find packages
+cmake_policy(SET CMP0144 NEW)
+cmake_policy(SET CMP0167 NEW)
 
 project(
   k4CLUE
