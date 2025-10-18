@@ -1,9 +1,15 @@
 {
   "version": 5,
-  "prev": null,
-  "head": "256ca8909b04c5553ffbb92f98611b1e893181cf",
-  "applied": [],
+  "prev": "e6d761d8c4aab1bf9d560c6458a30ba4682cb902",
+  "head": "61f8fc7ad3b85a755bb65f0192d73cd4ef8795cc",
+  "applied": [
+    "cmakewarn"
+  ],
   "unapplied": [],
   "hidden": [],
-  "patches": {}
+  "patches": {
+    "cmakewarn": {
+      "oid": "61f8fc7ad3b85a755bb65f0192d73cd4ef8795cc"
+    }
+  }
 }

@@ -1,0 +1,9 @@
+Bottom: ebd9ff209c9eaf4c40db0f0a1640ee5909cc7ec5
+Top:    ebd9ff209c9eaf4c40db0f0a1640ee5909cc7ec5
+Author: sss <sss@karma>
+Date:   2025-10-18 18:52:28 -0400
+
+Fix some cmake developer warnings.
+
+Set policies CMP0144 and CMP0167 to avoid warnings from cmake.
+Bump minimum cmake version to 3.10.
