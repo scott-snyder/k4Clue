@@ -357,7 +357,7 @@ StatusCode ClueGaudiAlgorithmWrapper<nDim>::execute(const EventContext&) const {
   info() << "Processing " << EB_calo_coll->size() << " caloHits in ECAL Barrel." << endmsg;
 
   // Fill CLUECaloHits in the barrel
-  if (EB_calo_coll->isValid()) {
+  if (EB_calo_coll->hasID()) {
     for (const auto& calo_hit : (*EB_calo_coll)) {
       // Cut on a specific layer for noise studies
       // if(bf.get( calo_hit.getCellID(), "layer") == 6){
@@ -385,7 +385,7 @@ StatusCode ClueGaudiAlgorithmWrapper<nDim>::execute(const EventContext&) const {
   info() << "Processing " << EE_calo_coll->size() << " caloHits in ECAL Endcap." << endmsg;
 
   // Fill CLUECaloHits in the endcap
-  if (EE_calo_coll->isValid()) {
+  if (EE_calo_coll->hasID()) {
     for (const auto& calo_hit : (*EE_calo_coll)) {
       if (bf.get(calo_hit.getCellID(), "side") < 0 || bf.get(calo_hit.getCellID(), "side") > 1) {
         clue_hit_coll_endcap.vect.push_back(clue::CLUECalorimeterHit(
