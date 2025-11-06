@@ -1,6 +1,0 @@
-Bottom: ddaddc953fa73aa7dba84a44c85e7f7bdc971ab6
-Top:    ddaddc953fa73aa7dba84a44c85e7f7bdc971ab6
-Author: sss <sss@karma>
-Date:   2025-11-05 22:33:12 -0500
-
-Change isValid to hasID.
