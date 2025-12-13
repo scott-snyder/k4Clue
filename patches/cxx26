@@ -1,0 +1,6 @@
+Bottom: c476291b772a94fe6a21a963ce21112ff3ce007d
+Top:    c476291b772a94fe6a21a963ce21112ff3ce007d
+Author: sss <sss@karma>
+Date:   2025-12-13 14:27:31 -0500
+
+Allow compiling with C++26.
