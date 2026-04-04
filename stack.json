@@ -1,12 +1,12 @@
 {
   "version": 5,
-  "prev": "bb3aa51c92e678d4c9deac978eaaafd9b35ff5ba",
-  "head": "3b44340909fee85e9afc43acfc138a8c91b0d80e",
+  "prev": "7a05739da56719535d72a7ca429e421f1f2cfd40",
+  "head": "975072546ac9f6374a72ebcd8294ab715a911488",
   "applied": [
-    "cmakewarn"
+    "cmakewarn",
+    "danglewarn"
   ],
   "unapplied": [
-    "danglewarn",
     "gccbug-newxx",
     "cxx26"
   ],
@@ -19,7 +19,7 @@
       "oid": "050f99f0764981f7b6fbc5842a4cea884a9f5f7c"
     },
     "danglewarn": {
-      "oid": "8a310114e17e0f2806fb95818b709ed9f46798af"
+      "oid": "975072546ac9f6374a72ebcd8294ab715a911488"
     },
     "gccbug-newxx": {
       "oid": "ad41c80b0b08aaef0d9d4cf63851fa05f0f93ed3"
