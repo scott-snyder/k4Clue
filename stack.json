@@ -1,12 +1,12 @@
 {
   "version": 5,
-  "prev": "ed1ea02ccc08815fc868217a62e50fafa8a53c8a",
-  "head": "1aab808748f62a4b06cb2f85c33430a8a7ba09d7",
-  "applied": [
+  "prev": "edb508f7102f1dc6066ead39e9f5488b00e1702f",
+  "head": "49ebc5c062373f57d236e8b6571d4e86d38d1162",
+  "applied": [],
+  "unapplied": [
     "cmakewarn",
     "gccbug-newxx"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "cmakewarn": {
