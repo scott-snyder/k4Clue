@@ -76,8 +76,7 @@ StatusCode ClueGaudiAlgorithmWrapper<nDim>::initialize() {
   const auto seeding_distance = (m_seed_dc < 0.f) ? m_dc : m_seed_dc;
   const auto outlier_distance = (m_dm < 0.f) ? m_dc : m_dm;
   auto start = std::chrono::high_resolution_clock::now();
-  m_clueAlgo = std::make_optional<clue::Clusterer<nDim>>(*m_queue, m_dc, m_rhoc, outlier_distance, seeding_distance,
-                                                         m_pointsPerBin);
+  m_clueAlgo = std::make_optional<clue::Clusterer<nDim>>(*m_queue, m_dc, m_rhoc, outlier_distance, seeding_distance);
   auto finish = std::chrono::high_resolution_clock::now();
   std::chrono::duration<double> elapsed = finish - start;
   debug() << "ClueGaudiAlgorithmWrapper: Set up time: " << elapsed.count() * 1000 << " ms" << endmsg;
